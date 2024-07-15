@@ -10,8 +10,12 @@ then
 elif [ $age -le 19 ]
 then
 	echo "He/She is an teenager"
-elif [ $age -ge 20 ]
+elif [ $age -le 20 ]
 then
 	echo "He/She is an Adult"
+elif [ $age -ge 60 ]
+then
+	echo "He/She is an Oldage"
 fi
+
 
